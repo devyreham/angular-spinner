@@ -1,0 +1,18 @@
+/** Created by yreham.com on 3/6/15. style for progresbar.js */
+/*
+#8AA2A2 gris bleu panton 422
+#0033A0 bleu pantone 286
+#CEB888 beige pantone 7502
+#5F259F violet pantone 267
+#B3A369 gold pantone 4515
+#BD002E rouge pantone 186
+#000000 noir
+*/
+div.progresslayer { background-color: #8AA2A2; position: absolute; opacity: 0.5; z-index: 100; width: 100%; height: 100%; top: 0; left: 0; }
+
+div.barlayer { background-color: #f0f0f0; border: 1px solid #E3E0DF; position: absolute; z-index: 110; width: 50%; top: 70%; left: 25%; padding: 5px 5px; text-align: center; vertical-align: middle; font-size: 0.625rem; }
+div.barlayer > div { margin: 2px 8px; color: #555555; font-size: 0.625rem; }
+
+.ui-show { display: block; opacity: 100%; }
+
+.ui-hide { display: none; opacity: 0%; }

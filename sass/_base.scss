@@ -1,0 +1,69 @@
+//
+// Variables
+// --------------------------------------------------
+
+
+// Global values
+// --------------------------------------------------
+
+//Custom colors
+
+$kbdark: #000000;
+$kbnormal: #0033A0;
+$kblight: #8AA2A2;
+$kblighter: #f0f0f0;
+$evalbackground: #B3A369;
+$redkbd: #BD002E;
+$buttonbg: #5F259F;
+$buttonbg-hover: #EFF5F5;
+$kbdborder: #E3E0DF;
+$kbdevalborder: #E3E0DF;
+
+/*
+#8AA2A2 gris bleu panton 422
+#0033A0 bleu pantone 286
+#CEB888 beige pantone 7502
+#5F259F violet pantone 267
+#B3A369 gold pantone 4515
+#BD002E rouge pantone 186
+#000000 noir
+*/
+
+$gray-darker:            tint(#000, 13.5%); // #222
+$gray-dark:              tint(#000, 20%);   // #333
+$gray:                   tint(#000, 33.5%); // #555
+$gray-light:             tint(#000, 60%);   // #999
+$gray-lighter:           tint(#000, 93.5%); // #eee
+$white:                  #fff;
+$black:                  #000;
+
+// Scaffolding
+// -------------------------
+$bodyBackground:        #fff;
+$textColor:             $gray-dark;
+
+// Links
+// -------------------------
+$linkColor:             $kbnormal;
+$linkColorHover:        shade($linkColor, 15%);
+
+// Typography
+// -------------------------
+$sansFontFamily:        Arial,Helvetica,sans-serif;
+$serifFontFamily:       Arial, serif;
+$monoFontFamily:        Consolas, Courier, monospace;
+
+$baseFontSize:          0.625rem;
+$baseFontFamily:        $sansFontFamily;
+$baseLineHeight:        1rem;
+$altFontFamily:         $serifFontFamily;
+$line-height-base:        1.6; // 1/0.625
+$line-height-computed:    floor($baseFontSize * $line-height-base); // ~16px
+
+$headingsFontFamily:    inherit; // empty to use BS default, $baseFontFamily
+$headingsFontWeight:    normal;    // instead of browser default, bold
+$headingsColor:         $gray-dark; // empty to use BS default, $textColor
+
+$experimental-support-for-svg: true;
+
+$listPadding: 5px;
